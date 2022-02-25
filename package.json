@@ -1,0 +1,17 @@
+{
+  "name": "getkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "dayjs": "^1.10.5",
+    "express": "^4.17.1"
+  }
+}

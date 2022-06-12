@@ -7,6 +7,10 @@ const express = require('express');
 const _urls = {
     'k.swweb.top':'w.swweb.top',
     'sdwkey.ncshouda.com':'sdwsocket.ncshouda.com',
+    'mgkey.qiuwenbo.top':'mgsock.qiuwenbo.top',
+    'k.yanyh.top':'w.yanyh.top',
+    'k.edusky.top':'w.edusky.top',
+    'mgk.izcy.top':'mgw.izcy.top'
 };
 // 
 const app = express();
@@ -49,6 +53,7 @@ app.get('/sd28', async(req, res) =>
     }
     const agent = req.headers['user-agent'];
     const ip = (await ipcheck(req.headers)).replace(/\./g,''); // -
+    // console.log('------'+ip);
     const time = dayjs().valueOf();
     const sj = [1,2,3,4,5,6,7,8,9].sort(()=>{return Math.random() > .5 ? -1 : 1}).slice(0,6).join('');
     // 

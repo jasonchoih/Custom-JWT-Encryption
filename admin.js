@@ -6,7 +6,8 @@ const express = require('express');
 // const { admin_url } = require("./config");
 const _urls = {
     'pv.aliceo.top':'pw.aliceo.top',
-    'sdakey.ncshouda.com':'sdasocket.ncshouda.com'
+    'sdakey.ncshouda.com':'sdasocket.ncshouda.com',
+    'mgpv.qiuwenbo.top':'mgpw.qiuwenbo.top'
 };
 // 
 const app = express();
